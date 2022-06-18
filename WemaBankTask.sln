@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WemaBankTask", "WemaBankTask\WemaBankTask.csproj", "{C45E3ED0-E6D9-449D-9584-3D51293BA764}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WemaBankTask.Common", "WemaBankTask.Common\WemaBankTask.Common.csproj", "{729417D5-E47B-48B4-8F37-05D8C52C96EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WemaBankTask.Services", "WemaBankTask.Services\WemaBankTask.Services.csproj", "{6708280F-1FE2-4A96-83AA-9C4D51EBE2C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WemaBankTask.Entities", "WemaBankTask.Entities\WemaBankTask.Entities.csproj", "{3A8A8303-390C-472C-A271-7254C9AAD5A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backend", "Backend", "{6F460EF1-CBCA-4419-B5B2-31AC3C201F24}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{E5B94813-64CD-484B-AE95-5CE1536E2B14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WemaBankTask.Services.Test", "WemaBankTask.Services.Test\WemaBankTask.Services.Test.csproj", "{569B9666-278D-4A61-A87A-E25EEB3FB0E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C45E3ED0-E6D9-449D-9584-3D51293BA764}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C45E3ED0-E6D9-449D-9584-3D51293BA764}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C45E3ED0-E6D9-449D-9584-3D51293BA764}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C45E3ED0-E6D9-449D-9584-3D51293BA764}.Release|Any CPU.Build.0 = Release|Any CPU
+		{729417D5-E47B-48B4-8F37-05D8C52C96EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{729417D5-E47B-48B4-8F37-05D8C52C96EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{729417D5-E47B-48B4-8F37-05D8C52C96EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{729417D5-E47B-48B4-8F37-05D8C52C96EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6708280F-1FE2-4A96-83AA-9C4D51EBE2C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6708280F-1FE2-4A96-83AA-9C4D51EBE2C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6708280F-1FE2-4A96-83AA-9C4D51EBE2C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6708280F-1FE2-4A96-83AA-9C4D51EBE2C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A8A8303-390C-472C-A271-7254C9AAD5A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A8A8303-390C-472C-A271-7254C9AAD5A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A8A8303-390C-472C-A271-7254C9AAD5A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A8A8303-390C-472C-A271-7254C9AAD5A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{569B9666-278D-4A61-A87A-E25EEB3FB0E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{569B9666-278D-4A61-A87A-E25EEB3FB0E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{569B9666-278D-4A61-A87A-E25EEB3FB0E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{569B9666-278D-4A61-A87A-E25EEB3FB0E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C45E3ED0-E6D9-449D-9584-3D51293BA764} = {6F460EF1-CBCA-4419-B5B2-31AC3C201F24}
+		{729417D5-E47B-48B4-8F37-05D8C52C96EC} = {6F460EF1-CBCA-4419-B5B2-31AC3C201F24}
+		{6708280F-1FE2-4A96-83AA-9C4D51EBE2C9} = {6F460EF1-CBCA-4419-B5B2-31AC3C201F24}
+		{3A8A8303-390C-472C-A271-7254C9AAD5A8} = {6F460EF1-CBCA-4419-B5B2-31AC3C201F24}
+		{569B9666-278D-4A61-A87A-E25EEB3FB0E1} = {E5B94813-64CD-484B-AE95-5CE1536E2B14}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D5EB574-CA43-46CE-99C6-384C851F558E}
+	EndGlobalSection
+EndGlobal
