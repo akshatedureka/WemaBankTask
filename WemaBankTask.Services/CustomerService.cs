@@ -101,27 +101,7 @@ namespace WemaBankTask.Services
         {
             var response = new ResponseModel();
 
-            //var existingCustomer = await this.GetAsync(x => x.Email.ToLower() == customerDto.Email.ToLower());
-            //if (existingCustomer != null)
-            //{
-            //    response.HasError = true;
-
-            //    if (!existingCustomer.IsVerified)
-            //    {
-            //        var oTPRequest = _thirdpartyIntegration.RequestOTP(customerDto.PhoneNumber);
-            //        if (oTPRequest)
-            //        {
-            //            response.Message = "User already exist. OTP has been sent to the Phone number for confirmation";
-            //        }
-            //        else
-            //            response.Message = "User already exist. Unable to send OTP to email at the moment";
-            //    }
-            //    else
-            //        response.Message = "User already exist in the system. Please login to have access";
-
-            //    return response;
-            //}
-
+           
             State state;
             LGA lga;
             state = locationsDto.States.Where(x => x.StateName.ToLower() == customerDto.StateOfResidence.ToLower()).FirstOrDefault();
